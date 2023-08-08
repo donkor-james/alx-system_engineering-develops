@@ -1,0 +1,26 @@
+total 36
+drwxr-xr-x 2 root root 209 Aug  8 08:50 .
+drwxr-xr-x 5 root root  91 Aug  8 06:53 ..
+-rwxr--r-- 1 root root  32 Aug  8 07:07 0-hello_world
+-rwxr--r-- 1 root root  46 Aug  8 08:45 10-no_more_js
+-rwxr--r-- 1 root root  54 Aug  8 08:24 11-directories
+-rwxr--r-- 1 root root  28 Aug  8 06:56 1-confused_smiley
+-rwxr--r-- 1 root root  37 Aug  7 12:39 2-hellofile
+-rwxr--r-- 1 root root  62 Aug  7 12:45 3-twofiles
+-rwxr--r-- 1 root root  37 Aug  8 08:08 4-lastlines
+-rwxr--r-- 1 root root  36 Aug  8 08:49 8-cwd_state
+-rw-r--r-- 1 root root   0 Aug  8 08:50 ls_cwd_content
+-rw-r--r-- 1 root root  38 Aug  8 07:01 README.md
+total 40
+drwxr-xr-x 2 root root 209 Aug  8 08:50 .
+drwxr-xr-x 5 root root  91 Aug  8 06:53 ..
+-rwxr--r-- 1 root root  32 Aug  8 07:07 0-hello_world
+-rwxr--r-- 1 root root  46 Aug  8 08:45 10-no_more_js
+-rwxr--r-- 1 root root  54 Aug  8 08:24 11-directories
+-rwxr--r-- 1 root root  28 Aug  8 06:56 1-confused_smiley
+-rwxr--r-- 1 root root  37 Aug  7 12:39 2-hellofile
+-rwxr--r-- 1 root root  62 Aug  7 12:45 3-twofiles
+-rwxr--r-- 1 root root  37 Aug  8 08:08 4-lastlines
+-rwxr--r-- 1 root root  37 Aug  8 08:50 8-cwd_state
+-rw-r--r-- 1 root root 627 Aug  8 08:50 ls_cwd_content
+-rw-r--r-- 1 root root  38 Aug  8 07:01 README.md
