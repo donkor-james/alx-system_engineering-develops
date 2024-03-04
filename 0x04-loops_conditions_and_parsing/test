@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-if [ -f README.md ]
-then
-	echo "file exists"
-fi
