@@ -1,6 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env bash
 # bash script to connect a user to an ubuntu server via ssh 
-=======
->>>>>>> 88eae3763ce4d90701abdb4522be7c2b6fe038cc
 ssh 99614-web-01@54.236.16.134
