@@ -11,16 +11,16 @@ fi
 sudo service nginx stop
 
 # changing permission on nginx.confi file
-sudo chmod 644 /etc/nginx/nginx.conf
+sudo chmod 766 /etc/nginx/nginx.conf
 
 # replacing www-data user with nginx user
 sed -i "s/#user www-data/user nginx/" /etc/nginx/nginx.conf
 
 # configuring nginx to run on port 8080
-sed -i "s/80/8080/" /etc/nginx/site-enabled/default
+sudo sed -i "s/80/8080/" /etc/nginx/site-enabled/default
 
 # change owner of nginx server directory to nginx user
-chown nginx:nginx /etc/nginx -R
+sudo chown nginx:nginx /etc/nginx -R
 
 # restarting nginx 
 sudo -u nginx service nginx start
