@@ -10,6 +10,9 @@ fi
 # stops nginx server
 sudo service nginx stop
 
+# changing permission on nginx.confi file
+sudo chmod 644 /etc/nginx/nginx.conf
+
 # replacing www-data user with nginx user
 sed -i "s/#user www-data/user nginx/" /etc/nginx/nginx.conf
 
