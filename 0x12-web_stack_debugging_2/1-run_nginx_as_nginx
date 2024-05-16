@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 # bash script that makes nginx user run nginx processes
-program="apache2"
-
-if pgrep -x "$program" > /dev/null;
-then
-	pkill -x "$program"
-fi
+pkill apache2
 
 # stops nginx server
 sudo service nginx stop
@@ -14,7 +9,7 @@ sudo service nginx stop
 sudo chmod 766 /etc/nginx/nginx.conf
 
 # replacing www-data user with nginx user
-sed -i "s/#user www-data/user nginx/" /etc/nginx/nginx.conf
+sed -Ei 's/\s*#?\s*user .*/user nginx;/' /etc/nginx/nginx.conf
 
 # configuring nginx to run on port 8080
 sudo sed -i "s/80/8080/" /etc/nginx/site-enabled/default
