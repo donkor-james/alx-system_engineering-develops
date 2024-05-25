@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-""" Python script that retrieve data using REST API. """
-
+"""Returns to-do list information for a given employee ID."""
 import requests
 import sys
 
