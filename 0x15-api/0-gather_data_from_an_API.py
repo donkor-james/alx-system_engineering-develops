@@ -22,7 +22,7 @@ if __name__ == "__main__":
             completed.append(todo.get("title"))
 
     print("Employee {} is done with tasks({}/{})".format(
-        user.get("name"),len(completed), len(todos)))
+        user.get("name"), len(completed), len(todos)))
 
     for complete in completed:
         print("\t {}".format(complete))
