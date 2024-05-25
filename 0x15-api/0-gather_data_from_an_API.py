@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" python script that retrieve data using REST API """
+""" Python script that retrieve data using REST API. """
 
 import requests
 import sys
