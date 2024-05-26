@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 """Exports to-do list information for a given employee ID to CSV format."""
 import csv
 import requests
@@ -13,12 +12,12 @@ if __name__ == "__main__":
     user = user_response.json()
     username = user.get("username")
 
-    param = {"userId": user_id)
+    params = {"userId": user_id}
     todo_response = requests.get(url + "todos", params=params)
-    todos = todos_response.json()
+    todos = todo_response.json()
 
     with open("{}.csv".format(user_id), "w", newline="") as csvfile:
-        writer = csv.writer(csvfile, quoting=CSV.QUOTE_ALL)
+        writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
 
         for todo in todos:
             writer.writerow([
