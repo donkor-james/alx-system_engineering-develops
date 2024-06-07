@@ -1,0 +1,19 @@
+#!/bin/bash
+
+web1=52.86.134.122
+web2=54.236.30.116
+lb=54.208.94.156
+
+if [ "$#" -eq 0 ] || [ "$1" == "web1" ]
+then
+	ssh -i ~/.ssh/school ubuntu@"$web1"
+elif [ "$#" -eq 1 ] && [ "$1" == "web2" ]
+then
+	ssh -i ~/.ssh/school ubuntu@"$web2"
+elif [ "$#" -eq 1 ] && [ "$1" == "lb" ]
+then
+	ssh -i ~/.ssh/school ubuntu@"$lb"
+else
+	echo -e "\n<FILE USAGE>: ./login_to_server NAME_OF_SERVER"
+	echo -e "servers available: \tweb1 \tweb2 \tlb\n"
+fi
