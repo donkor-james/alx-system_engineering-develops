@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# install load balancer
+#Installs and configures HAproxy in a load balancer server alx
 
 
 echo -e "Updating and doing some minor checks...\n"
