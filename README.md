@@ -1,1 +1,1 @@
-#Repository for all alx-system_engineering-devops Projects and tasks
+#Repository for all alx-system_engineering-devops projects
